@@ -1,0 +1,9 @@
+print ("Bem vindo a calculadora de juros")
+
+valor_principal = float (input("Digite o valor da compra:"))
+taxa_de_juros = float (input("Digite o valor da taxa em %:"))
+periodo = float (input("Digite o tempo que o dinheiro ficará retido:"))
+
+juros = valor_principal * taxa_de_juros * periodo
+
+print (juros)
